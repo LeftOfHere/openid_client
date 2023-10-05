@@ -94,7 +94,7 @@ abstract class UserInfo implements JsonObject {
   factory UserInfo.fromJson(Map<String, dynamic> json) = _UserInfoImpl.fromJson;
 }
 
-class _UserInfoImpl extends JsonObject with UserInfo {
+class _UserInfoImpl extends JsonObject implements UserInfo {
   _UserInfoImpl.fromJson(Map<String, dynamic> json) : super.from(json);
 }
 
@@ -120,7 +120,7 @@ class Address extends JsonObject {
   Address.fromJson(Map<String, dynamic> json) : super.from(json);
 }
 
-class OpenIdClaims extends JsonWebTokenClaims with UserInfo {
+class OpenIdClaims extends JsonWebTokenClaims implements UserInfo {
   /// Time when the End-User authentication occurred.
   DateTime? get authTime => this['auth_time'] == null
       ? null
