@@ -1,7 +1,7 @@
-import 'openid_client.dart';
+import 'openid_client_leftofhere.dart';
 import 'dart:html' hide Credential, Client;
 import 'dart:async';
-export 'openid_client.dart';
+export 'openid_client_leftofhere.dart';
 
 /// A wrapper around [Flow] that handles the browser-specific parts of
 /// authentication.

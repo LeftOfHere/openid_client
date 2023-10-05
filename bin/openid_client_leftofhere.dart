@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:openid_client/openid_client_io.dart';
+import 'package:openid_client_leftofhere/openid_client_io.dart';
 import 'package:args/command_runner.dart';
 import 'dart:convert';
 import 'dart:io';

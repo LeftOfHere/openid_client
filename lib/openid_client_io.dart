@@ -4,9 +4,9 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:developer';
 
-import 'openid_client.dart';
+import 'openid_client_leftofhere.dart';
 
-export 'openid_client.dart';
+export 'openid_client_leftofhere.dart';
 
 /// A wrapper around [Flow] that handles authentication in a non-web environment.
 ///

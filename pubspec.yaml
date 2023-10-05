@@ -9,7 +9,7 @@ environment:
 dependencies:
   jose: ^0.3.2
   pointycastle: ^3.0.0
-  http: ^0.13.0
+  http: ^1.1.0
   logging: ^1.0.0
   args: ^2.0.0
   meta: ^1.0.0
