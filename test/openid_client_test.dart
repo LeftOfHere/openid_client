@@ -1,7 +1,7 @@
 // Copyright (c) 2017, rbellens. All rights reserved. Use of this source code
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
-import 'package:openid_client/openid_client.dart';
+import 'package:openid_client_leftofhere/openid_client_leftofhere.dart';
 import 'package:test/test.dart';
 import 'package:logging/logging.dart';
 import 'dart:io';
