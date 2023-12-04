@@ -249,6 +249,8 @@ class Credential {
 
   IdToken get idToken => _token.idToken;
 
+  String? get accessToken => _token.accessToken;
+
   Stream<Exception> validateToken(
       {bool validateClaims = true, bool validateExpiry = true}) async* {
     var keyStore = JsonWebKeyStore();
