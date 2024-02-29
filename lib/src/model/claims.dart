@@ -94,6 +94,7 @@ mixin UserInfoMixin implements JsonObject {
 
 abstract class UserInfo implements UserInfoMixin {
   factory UserInfo.fromJson(Map<String, dynamic> json) = _UserInfoImpl.fromJson;
+  static const empty = _UserInfoImpl;
 }
 
 class _UserInfoImpl extends JsonObject with UserInfoMixin implements UserInfo {
